@@ -16,6 +16,7 @@ h3,
 .log-in,
 .News {
 	color: #224722;
+	text-align: center;
 }
 
 a {
@@ -25,21 +26,21 @@ a {
 	margin-bottom: 10px;
 	margin-left: 10px;
 	font-size: 20px;
-	justify-content: space-between;
 }
 
 .Apply {
-	padding: 15px 30px;
+	padding: 25px 30px;
 	color: #daffc9;
 	margin: 5px;
 	background-color: #224722;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 .navigation {
-	text-align: right;
+	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 100px;
+	height: 100px;
 }
 
 p {
@@ -49,44 +50,39 @@ p {
 .logo {
 	margin-top: 30px;
 	margin-bottom: 30px;
-	width: 20%;
+	width: 70%;
+	margin-left: 60px;
 }
 
 h1,
 h3 {
-	font-family: "Achivo";
+	font-family: "Archivo";
 	font-weight: bold;
 }
 
 .phone {
-	width: 30%;
+	width: 100%;
 	padding-bottom: 40px;
 	padding-right: 30px;
-	display: block;
-	float: right;
 }
 
 .watering {
-	width: 50%;
+	width: 100%;
 	border-radius: 50%;
 	padding-bottom: 40px;
 	padding-right: 30px;
 }
 
 .phone2 {
-	width: 50%;
+	width: 100%;
 	border-radius: 50%;
-	display: block;
-	float: right;
 	padding-bottom: 40px;
 	padding-right: 30px;
 }
 
 .plant {
-	width: 50%;
+	width: 100%;
 	border-radius: 50%;
-	display: block;
-	float: left;
 	padding-bottom: 40px;
 	padding-right: 30px;
 }
@@ -95,4 +91,104 @@ h3 {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	text-align: center;
+}
+
+@media (min-width: 1024px) {
+	.logo {
+        margin-top: -100px;
+		margin-bottom: 30px;
+		width: 70%;
+	}
+
+	.nav-top {
+		padding-top: 50px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.alive {
+		display: flex;
+		align-items: center;
+	}
+
+	.alive div {
+		flex: 1;
+	}
+
+	h1 {
+		text-align: left;
+		font-size: 75px;
+	}
+
+	.alive p {
+		font-size: 20px;
+		text-align: left;
+	}
+
+	.smart-care p {
+		font-size: 25px;
+		text-align: left;
+		line-height: 40px;
+	}
+
+	.smart-care h3,
+	p {
+		padding-left: 20px;
+	}
+
+	.phone {
+		padding-bottom: 40px;
+		padding-left: 80px;
+		width: 50%;
+	}
+
+	.watering {
+		padding-bottom: 40px;
+		padding-right: 30px;
+	}
+
+	.phone2 {
+		padding-bottom: 40px;
+		padding-left: 30px;
+	}
+
+	.plant {
+		padding-bottom: 40px;
+		padding-right: 30px;
+	}
+
+	.info {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	.info div:nth-child(1) {
+		order: 1;
+	}
+
+	.info div:nth-child(2) {
+		order: 2;
+	}
+
+	.info div:nth-child(3) {
+		order: 4;
+	}
+
+	.info div:nth-child(4) {
+		order: 3;
+	}
+
+	.info div:nth-child(5) {
+		order: 5;
+	}
+
+	.info div:nth-child(6) {
+		order: 6;
+	}
+
+	.footer {
+		text-align: center;
+	}
 }
