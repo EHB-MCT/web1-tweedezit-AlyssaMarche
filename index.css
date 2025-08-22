@@ -2,13 +2,97 @@
 
 body {
 	margin: 0;
-}
-
-header {
 	background-color: #e7edde;
 }
 
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
+}
+
+p,
+h1,
+h3,
+.log-in,
+.News {
+	color: #224722;
+}
+
+a {
+	font-family: "Helvetica";
+	text-decoration: none;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-size: 20px;
+	justify-content: space-between;
+}
+
+.Apply {
+	padding: 15px 30px;
+	color: #daffc9;
+	margin: 5px;
+	background-color: #224722;
+	border-radius: 5px;
+}
+
+.navigation {
+	text-align: right;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+p {
+	font-family: "Helvetica";
+}
+
+.logo {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 20%;
+}
+
+h1,
+h3 {
+	font-family: "Achivo";
+	font-weight: bold;
+}
+
+.phone {
+	width: 30%;
+	padding-bottom: 40px;
+	padding-right: 30px;
+	display: block;
+	float: right;
+}
+
+.watering {
+	width: 50%;
+	border-radius: 50%;
+	padding-bottom: 40px;
+	padding-right: 30px;
+}
+
+.phone2 {
+	width: 50%;
+	border-radius: 50%;
+	display: block;
+	float: right;
+	padding-bottom: 40px;
+	padding-right: 30px;
+}
+
+.plant {
+	width: 50%;
+	border-radius: 50%;
+	display: block;
+	float: left;
+	padding-bottom: 40px;
+	padding-right: 30px;
+}
+
+.footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
 }
