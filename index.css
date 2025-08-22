@@ -48,9 +48,16 @@ p {
 }
 
 .navigation {
-	margin-top: 20px;
 	height: 100px;
 	margin-left: 60px;
+}
+
+.log-in{
+    margin-right: 20px;
+}
+
+.News{
+    margin-right: 20px;
 }
 
 .navigation a {
@@ -59,8 +66,6 @@ p {
 	text-decoration: none;
 	font-family: "Helvetica";
 	text-decoration: none;
-	justify-content: space-between;
-	align-items: center;
 	font-size: 15px;
 }
 
